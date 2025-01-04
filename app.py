@@ -111,7 +111,7 @@ if selected == 'Home':
     st.markdown('<h1 class="main-title">Advanced Health Assistant</h1>', unsafe_allow_html=True)
 
      # Add banner image
-    st.image("images/health_banner.jpg", use_column_width=True)
+    st.image("images/health_banner.jpg", use_container_width=True)
     
     # Dashboard Overview
     col1, col2, col3 = st.columns(3)
